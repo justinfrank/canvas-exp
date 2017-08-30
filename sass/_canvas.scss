@@ -1,0 +1,29 @@
+* { margin:0; padding:0; } /* to remove the top and left whitespace */
+
+html, body { width:100%; height:100%; } /* just to be sure these are full screen*/
+
+canvas { display:block; } /* To remove the scrollbars */
+
+body {
+  position: relative;
+  font-family: 'Merriweather', serif;
+}
+
+.cite--canvas {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  padding: 10px;
+  background-color: rgba($white, .7);
+  border-radius: 6px;
+  color: #555;
+}
+
+#canvas {
+  // position: absolute;
+  // width: 100%;
+  // height: 100%;
+  // background-image: url('../../assets/img/simon-buchou-261855-web.jpg');
+  // background-size: cover;
+  // background-position: center center;
+}
